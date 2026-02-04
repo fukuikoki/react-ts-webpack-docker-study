@@ -7,8 +7,8 @@ const Greets: React.FunctionComponent<React.PropsWithChildren<Props>> = (props) 
 
     return (
         <>
-            {[...Array(times)].map((_) => (
-                <p>Hello, {name}! {children}</p>
+            {[...Array(times)].map((_, idx) => (
+                <p key={idx}>Hello, {name}! {children}</p>
             ))}
         </>
     );
