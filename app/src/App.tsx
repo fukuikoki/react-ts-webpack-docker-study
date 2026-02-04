@@ -1,6 +1,6 @@
 import Greets from './components/Greets';
 // import SummaryText from './components/SummaryText';
-// import TextInput from './components/TextInput';
+import TextInput from './components/TextInput';
 import './App.css';
 
 const App: React.FunctionComponent = () => (
@@ -15,8 +15,8 @@ const App: React.FunctionComponent = () => (
 
       Soon, the Rabbit Family settles in Maple Town as mail carriers and the bitter,
       yet sweet friendship of Patty and Bobby begins to blossom.
-    </SummaryText>
-    <TextInput /> */}
+    </SummaryText> */}
+    <TextInput />
   </div>
 );
 
